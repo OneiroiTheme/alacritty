@@ -1,0 +1,58 @@
+[colors.primary]
+background = "{{bg}}"
+foreground = "{{fg}}"
+dim_foreground = "{{fgs}}"
+bright_foreground = "{{fg}}"
+
+[colors.cursor]
+text = "{{bg}}"
+cursor = "{{prim}}"
+
+[colors.vi_mode_cursor]
+text = "{{bg}}"
+cursor = "{{fg}}"
+
+[colors.search.matches]
+foreground = "{{bg}}"
+background = "{{terts}}"
+
+[colors.search.focused_match]
+foreground = "{{bg}}"
+background = "{{tert}}"
+
+[colors.footer_bar]
+foreground = "{{fgs}}"
+background = "{{bg2}}"
+
+[colors.hints.start]
+foreground = "{{bg}}"
+background = "{{tert}}"
+
+[colors.hints.end]
+foreground = "{{bg}}"
+background = "{{terts}}"
+
+[colors.selection]
+text = "CellForeground"
+background = "{{sel}}"
+
+[colors.normal]
+black = "{{bg}}"
+red = "{{reds}}"
+green = "{{gres}}"
+yellow = "{{yels}}"
+blue = "{{blus}}"
+magenta = "{{purs}}"
+cyan = "{{aqus}}"
+white = "{{fgs}}"
+
+[colors.bright]
+black = "{{bgs}}"
+red = "{{red}}"
+green = "{{gre}}"
+yellow = "{{yel}}"
+blue = "{{blu}}"
+magenta = "{{pur}}"
+cyan = "{{aqu}}"
+white = "{{fg}}"
+
