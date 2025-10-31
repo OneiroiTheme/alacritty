@@ -1,4 +1,21 @@
 {
-    "input": "/.template/template.toml",
-    "output": "/{{theme}}-{{plt}}.toml"
+    "templates": {
+        "type": "mustache",
+        "input": "/.template/template.toml",
+        "output": "/{{plt.theme}}-{{plt.plt}}.toml"
+    },
+    "port": {
+        "title": "Alacritty",
+        "url": "https://alacritty.org",
+        "version": "0.0.2"
+    },
+    "author": {
+        "name": "Crystar Z",
+        "email": "crystar.z@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OneiroiTheme/alacritty.git"
+    },
+    "license": "MIT"
 }

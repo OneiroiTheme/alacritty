@@ -1,58 +1,58 @@
 [colors.primary]
-background = "{{bg}}"
-foreground = "{{fg}}"
-dim_foreground = "{{fgs}}"
-bright_foreground = "{{fg}}"
+background = "{{tm.background}}"
+foreground = "{{tm.foreground}}"
+dim_foreground = "{{on-surface-variant}}"
+bright_foreground = "{{on-surface}}"
 
 [colors.cursor]
-text = "{{bg}}"
-cursor = "{{prim}}"
+text = "{{tm.background}}"
+cursor = "{{tm.caret}}"
 
 [colors.vi_mode_cursor]
-text = "{{bg}}"
-cursor = "{{fg}}"
+text = "{{tm.background}}"
+cursor = "{{tm.foreground}}"
 
 [colors.search.matches]
-foreground = "{{bg}}"
-background = "{{terts}}"
+foreground = "{{tm.background}}"
+background = "{{tm.find-highlight}}"
 
 [colors.search.focused_match]
-foreground = "{{bg}}"
-background = "{{tert}}"
+foreground = "{{tm.background}}"
+background = "{{tm.find-highlight-foreground}}"
 
 [colors.footer_bar]
-foreground = "{{fgs}}"
-background = "{{bg2}}"
+foreground = "{{on-surface-variant}}"
+background = "{{surface-container-highest}}"
 
 [colors.hints.start]
-foreground = "{{bg}}"
-background = "{{tert}}"
+foreground = "{{tm.background}}"
+background = "{{tm.selection}}"
 
 [colors.hints.end]
-foreground = "{{bg}}"
-background = "{{terts}}"
+foreground = "{{tm.background}}"
+background = "{{tm.selection}}"
 
 [colors.selection]
 text = "CellForeground"
-background = "{{sel}}"
+background = "{{tm.selection}}"
 
 [colors.normal]
-black = "{{bg}}"
-red = "{{reds}}"
-green = "{{gres}}"
-yellow = "{{yels}}"
-blue = "{{blus}}"
-magenta = "{{purs}}"
-cyan = "{{aqus}}"
-white = "{{fgs}}"
+black = "{{ansi.blk}}"
+red = "{{ansi.red}}"
+green = "{{ansi.grn}}"
+yellow = "{{ansi.yel}}"
+blue = "{{ansi.blu}}"
+magenta = "{{ansi.mag}}"
+cyan = "{{ansi.cya}}"
+white = "{{ansi.wht}}"
 
 [colors.bright]
-black = "{{bgs}}"
-red = "{{red}}"
-green = "{{gre}}"
-yellow = "{{yel}}"
-blue = "{{blu}}"
-magenta = "{{pur}}"
-cyan = "{{aqu}}"
-white = "{{fg}}"
+black = "{{ansi.gra}}"
+red = "{{ansi.rrd}}"
+green = "{{ansi.ggn}}"
+yellow = "{{ansi.yyl}}"
+blue = "{{ansi.bbl}}"
+magenta = "{{ansi.mmg}}"
+cyan = "{{ansi.ccy}}"
+white = "{{ansi.wwt}}"
 
